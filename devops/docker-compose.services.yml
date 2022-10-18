@@ -7,8 +7,7 @@ services:
     expose:
       - "6379"
   sitech-shout:
-    image: sitech-shout:latest
-    container_name: boiler-celery
-    command: [ "celery", "-B" ]
+    image: sitechenv/sitech-shout
+    container_name: sitech-shout
     environment:
       BROKER_URL: redis://redis:6379
