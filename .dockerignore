@@ -1,0 +1,17 @@
+build
+dist
+.env
+.test.env
+.vscode
+.git
+.gitignore
+.coverage
+.pytest_cache
+.mypy_cache
+venv
+test
+data
+__pycache__
+*.pyc
+*/data-test
+venv
